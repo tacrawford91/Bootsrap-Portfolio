@@ -2,13 +2,17 @@ body {
     background-image: url(../images/fresh_snow.png);
     height: 100%;
 }
+.content {
+    min-height: 1000px;
+}
 .aboutMeImg {
-    border: 1px solid #ddd;
+    border: 3px solid #ddd;
     padding: 0;
-    margin-left: 2%;
+    margin: 0 auto;
+    margin-bottom: 3%
 }
 .nav {
-    font-size:20px;
+    font-size:24px;
 }
 .navbar .nav>li>a {
     font-size: 15px;
@@ -17,14 +21,68 @@ body {
 .connect {
     text-align: center;
 }
+.connectImage {
+    border: 1px solid #ddd;
+    width: 100%;
+    border-radius: 10px;
+}
 footer {
     background: #3e3f3a;
     height: 61.11px;
     color: white;
     text-align: center;
     padding-top: 22px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     bottom: 0;
     left: 0;
+}
+.name{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 18px;
+}
+textarea {
+    overflow: hidden;
+}
+.btn {
+    margin-left: 65%;
+    width: 27%;
+    background: #3e3f3a;
+    color: white;
+    font-size: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* START STYLE FOR PORTFOLIO PAGE */
+.portImage {
+    width: 100%;
+    border: 3px solid #f1f1f1;
+
+}
+.banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: #3e3f3a;
+    color: white;
+    bottom: 55px;
+
+}
+.bannerText{
+    font-size: 22px;
+}
+/* css adders */
+.selected {
+background: #98978b;
+}
+.btn:hover {
+    background: #98978b;
+    transition: 0.3s;
+}
+.animate:hover {
+    background: #98978b;
+    transition: 0.3s;
 }
